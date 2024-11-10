@@ -1,0 +1,30 @@
+{
+    "trailingComma": "all",
+    "semi": true,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "printWidth": 80,
+    "endOfLine": "lf",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "useTabs": false,
+    "proseWrap": "preserve",
+    "singleLineIfElse": false,
+    "quoteProps": "as-needed",
+
+    "overrides": [
+        {
+            "files": ["*.json"],
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": ["*.scss", "*.css"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}
